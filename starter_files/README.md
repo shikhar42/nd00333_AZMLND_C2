@@ -2,7 +2,7 @@
 In this project, I used Microsoft Azure to configure a cloud-based machine learning production model, deploy it, and consume it. I also created, published and consumed a pipeline using the Azure SDK.
 
 ## Architectural Diagram
-![Test Image 1](Architectural Design.png)
+![Test Image 1](nd00333_AZMLND_C2/starter_files/Architectural Design.png)
 
 
 ## Key Steps
