@@ -8,7 +8,7 @@ In this project, The Bank Marketing dataset was used. An AutoML experiment was c
 
 
 ## Key Steps
-1. AutoML Experiment
+###1. AutoML Experiment
 
 First, I uploaded the bank marketing dataset in azure.
 
