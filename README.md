@@ -57,6 +57,11 @@ In this step, we will consume the deployed model using Swagger. First, we have t
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%202.PNG?raw=true "post2.py")
 
+### 5. Consume Model Endpoint
+
+Once the model is deployed, we use the endpoint.py script provided to interact with the trained model. Below is a screenshot of the response returned by the model
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/6%20consume.PNG?raw=true "post2.py")
 
 
 ## Screen Recording
