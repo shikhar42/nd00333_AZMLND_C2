@@ -4,7 +4,7 @@
 In this project, The Bank Marketing dataset was used. An AutoML experiment was created to find the best model and then the best model was deployed and consumed. Later, I also created, published and consumed a pipeline using the Azure SDK.
 
 ## Architectural Diagram
-![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/flowchart.png?raw=true "Title")
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/flowchart.png?raw=true "Flowchart")
 
 
 ## Key Steps
