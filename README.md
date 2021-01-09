@@ -8,9 +8,12 @@ In this project, The Bank Marketing dataset was used. An AutoML experiment was c
 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
+1. AutoML Experiment
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+First, I uploaded the bank marketing dataset in azure.
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/2.%20datasets.PNG?raw=true "Dataset")
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
