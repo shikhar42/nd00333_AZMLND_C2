@@ -14,6 +14,15 @@ First, I uploaded the bank marketing dataset in azure.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/2.%20datasets.PNG?raw=true "Dataset")
 
+Next, we ran an AutoML Experiment. The screenshot below shows that the run was completed.
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/2.%20automl%20complete.PNG?raw=true "AutoML")
+
+Finally in this step, we will find the best model and use it for our further analysis. Below is the screenshot of our best model.
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/2.%20Best%20Model.PNG?raw=true "Best Model")
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
