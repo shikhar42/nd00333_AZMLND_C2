@@ -42,6 +42,21 @@ Finally, we can also check the logs after running the logs.py
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/4.%20Application%20Insights%201.PNG?raw=true "logs.py")
 
+### 4. Swagger Documentation
+
+In this step, we will consume the deployed model using Swagger. First, we have to download the swagger.json file from the deployed model. Then we have to run serve.py script which serves our json using python script. Below are the screenshots of the documentation page including the get and post requests.
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Main.PNG?raw=true "main screen.py")
+
+#### Swagger Get Request
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Get.PNG?raw=true "Get.py")
+
+#### Swagger Post Request
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%201.PNG?raw=true "post.py")
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%202.PNG?raw=true "post2.py")
+
 
 
 ## Screen Recording
