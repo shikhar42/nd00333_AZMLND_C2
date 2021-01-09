@@ -1,7 +1,7 @@
 
-# Your Project Title Here
+# Operationalizing Machine Learning
 
-*TODO:* Write an overview to your project.
+In this project, The Bank Marketing dataset was used. An AutoML experiment was created to find the best model and then the best model was deployed and consumed. Later, I also created, published and consumed a pipeline using the Azure SDK.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
