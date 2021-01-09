@@ -46,26 +46,47 @@ Finally, we can also check the logs after running the logs.py
 
 In this step, we will consume the deployed model using Swagger. First, we have to download the swagger.json file from the deployed model. Then we have to run serve.py script which serves our json using python script. Below are the screenshots of the documentation page including the get and post requests.
 
-![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Main.PNG?raw=true "main screen.py")
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Main.PNG?raw=true "main screen")
 
 #### Swagger Get Request
-![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Get.PNG?raw=true "Get.py")
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Get.PNG?raw=true "Get.")
 
 #### Swagger Post Request
 
-![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%201.PNG?raw=true "post.py")
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%201.PNG?raw=true "post.")
 
-![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%202.PNG?raw=true "post2.py")
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%202.PNG?raw=true "post2.")
 
 ### 5. Consume Model Endpoint
 
 Once the model is deployed, we use the endpoint.py script provided to interact with the trained model. Below is a screenshot of the response returned by the model
 
-![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/6%20consume.PNG?raw=true "post2.py")
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/6%20consume.PNG?raw=true "endpoint")
+
+### 6. Create, Publish and Consume a Pipeline
+
+In this step, we will use jupyter notebook to create, publish and consume a pipeline.
+
+From the below screenshot, we can confirm that the azure ML pipeline was created:
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%20Pipeline%20Created.PNG?raw=true "pipeline create")
+
+#### Pipeline Endpoint
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%20Pipeline%20Endpoint.PNG?raw=true "endpoint created")
+
+#### Pipeline Run from RunDetails widget in Jupyter Notebook
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%203.PNG?raw=true "run widget")
+
+#### Completed Pipeline and Endpoint
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%204.PNG?raw=true "status")
+
+
+
 
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
