@@ -8,7 +8,7 @@ In this project, The Bank Marketing dataset was used. An AutoML experiment was c
 
 
 ## Key Steps
-###1. AutoML Experiment
+### 1. AutoML Experiment
 
 First, I uploaded the bank marketing dataset in azure.
 
@@ -22,6 +22,11 @@ Finally in this step, we will find the best model and use it for our further ana
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/2.%20Best%20Model.PNG?raw=true "Best Model")
 
+### 2. Deploy
+
+As it is clear from step 1 that the best model is Voting Ensemble, the next step would be to deploy this model.
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/3.%20Deploy1.PNG?raw=true "Deploy")
 
 
 ## Screen Recording
