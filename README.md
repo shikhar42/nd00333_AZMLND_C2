@@ -28,6 +28,21 @@ As it is clear from step 1 that the best model is Voting Ensemble, the next step
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/3.%20Deploy1.PNG?raw=true "Deploy")
 
+### 3. Enable Logging
+
+Now, the next step is to enable logging. Here, we will enable the application insights of the deployed model so that it can be consumed. To enable application insights, I have added "service.update(enable_app_insights=True)" this statement to my code. 
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/4.%20Application%20Insights%202..PNG?raw=true "Insights")
+
+Next, we can see that the url is available
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/4.%20Application%20Insights.PNG?raw=true "Enabled Insights")
+
+Finally, we can also check the logs after running the logs.py
+
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/4.%20Application%20Insights%201.PNG?raw=true "logs.py")
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
