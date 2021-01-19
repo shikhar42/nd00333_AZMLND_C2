@@ -88,5 +88,6 @@ From the below screenshot, we can confirm that the azure ML pipeline was created
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
+https://www.youtube.com/watch?v=-un1YJT1-HQ
 
