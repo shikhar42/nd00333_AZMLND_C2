@@ -67,7 +67,7 @@ Once the model is deployed, we use the endpoint.py script provided to interact w
 
 In this step, we will use jupyter notebook to create, publish and consume a pipeline.
 
-From the below screenshot, we can confirm that the azure ML pipeline was created:
+From the below screenshot, we can confirm that the azure ML pipeline was completed in the experiments section:
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%20Pipeline%20Created.PNG?raw=true "pipeline create")
 
