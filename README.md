@@ -30,7 +30,7 @@ As it is clear from step 1 that the best model is Voting Ensemble, the next step
 
 ### 3. Enable Logging
 
-NWe choose the best model for deployment and enable "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
+We choose the best model for deployment and enable "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/4.%20Application%20Insights%202..PNG?raw=true "Insights")
 
@@ -79,15 +79,19 @@ Also, from the endpoints section, we can see the details of the pipeline. From t
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%20Pipeline%20Endpoint.PNG?raw=true "endpoint created")
 
 #### Pipeline Run from RunDetails widget in Jupyter Notebook
+
 From the following screenshot, we can see run widget that gives us information related to the pipeline run. It is one of the way you can track the process of the pipelines from the notebook without having to naviagate to the azure studio.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%203.PNG?raw=true "run widget")
 
 #### Completed Pipeline and Endpoint
+
 In the screenshot below, we can see the details of the pipeline from the pipeline section.
+
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%204.PNG?raw=true "status")
 
 The screenshot below shows the details about the completed pipeline including the rest endpoint.
+
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/rest%20endpoint.PNG?raw=true "status")
 
 ## Suggestions for Improvement
