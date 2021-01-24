@@ -30,11 +30,11 @@ As it is clear from step 1 that the best model is Voting Ensemble, the next step
 
 ### 3. Enable Logging
 
-Now, the next step is to enable logging. Here, we will enable the application insights of the deployed model so that it can be consumed. To enable application insights, I have added "service.update(enable_app_insights=True)" this statement to my code. 
+NWe choose the best model for deployment and enable "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/4.%20Application%20Insights%202..PNG?raw=true "Insights")
 
-Next, we can see that the url is available
+Next, from the following screenshot, we can see that the applications insights are enabled and we have a url.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/4.%20Application%20Insights.PNG?raw=true "Enabled Insights")
 
@@ -49,9 +49,11 @@ In this step, we will consume the deployed model using Swagger. First, we have t
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Main.PNG?raw=true "main screen")
 
 #### Swagger Get Request
+Below are the swagger get requests.
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Get.PNG?raw=true "Get.")
 
 #### Swagger Post Request
+Below are the swagger get requests.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/5.%20Post%201.PNG?raw=true "post.")
 
@@ -72,17 +74,20 @@ From the below screenshot, we can confirm that the azure ML pipeline was complet
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%20Pipeline%20Created.PNG?raw=true "pipeline create")
 
 #### Pipeline Endpoint
+Also, from the endpoints section, we can see the details of the pipeline. From the following screenshot, we can see that the pipeline is currently running and is in the active state.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%20Pipeline%20Endpoint.PNG?raw=true "endpoint created")
 
 #### Pipeline Run from RunDetails widget in Jupyter Notebook
+From the following screenshot, we can see run widget that gives us information related to the pipeline run. It is one of the way you can track the process of the pipelines from the notebook without having to naviagate to the azure studio.
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%203.PNG?raw=true "run widget")
 
 #### Completed Pipeline and Endpoint
-
+In the screenshot below, we can see the details of the pipeline from the pipeline section.
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%204.PNG?raw=true "status")
 
+The screenshot below shows the details about the completed pipeline including the rest endpoint.
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/rest%20endpoint.PNG?raw=true "status")
 
 ## Suggestions for Improvement
