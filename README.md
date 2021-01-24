@@ -83,8 +83,12 @@ From the below screenshot, we can confirm that the azure ML pipeline was complet
 
 ![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/7.%204.PNG?raw=true "status")
 
+![Alt text](https://github.com/shikhar42/nd00333_AZMLND_C2/blob/master/rest%20endpoint.PNG?raw=true "status")
 
+## Suggestions for Improvement
 
+1) Deploy using AKS and compare the deployment time and cost.
+2) We also noticed from the output that the data is biased towards one class. Hence, different sampling methods should be tried.
 
 
 ## Screen Recording
